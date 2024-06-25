@@ -1,0 +1,8 @@
+<ngx-editor-menu
+  [editor]="editor"
+  [customMenuRef]="customMenu">
+</ngx-editor-menu>
+<ng-template #customMenu>
+    <app-custom-menu [editor]="editor"></app-custom-menu>
+</ng-template>
+<ngx-editor [editor]="editor"></ngx-editor>
